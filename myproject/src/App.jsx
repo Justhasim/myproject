@@ -7,7 +7,7 @@ import Signup from './component/Signup'
 import Profile from './component/Profile'
 import Header  from './component/Header';
 
-document.body.style.backgroundColor = "rgb(15 23 42)"
+document.body.style.backgroundColor = "#0f172a"
 export default function App() {
   return (
     <>
