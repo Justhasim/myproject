@@ -1,10 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 export default function Signup() {
   const [formData, setformData] = useState({});
-  const [error, setError] = useState(false)
-  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
   const handleChanges = (e) => {
     setformData({ ...formData, [e.target.id]: e.target.value });
     
@@ -28,6 +30,7 @@ export default function Signup() {
       setError(true)
       return;
     }
+    navigate('/sign-in')
    
     } catch (error) {
       setLoading(false);
@@ -70,9 +73,9 @@ export default function Signup() {
         </button>
       </form>
       <div className=" flex gap-2 mt-5">
-        <p>Dont Have a Account?</p>
-        <Link to="./sign-in">
-          <span className="text-red-500">Sign In</span>
+        <p>Already Have a Account?</p>
+        <Link to="/sign-in">
+          <span className="text-red-500">Sign Up</span>
         </Link>
       </div>
       <div>
