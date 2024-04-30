@@ -17,7 +17,7 @@ const  userSchema = new mongoose.Schema({
      },
      profilePicture:{
       type: String,
-      default: "https://static.vecteezy.com/system/resources/previews/023/465/688/non_2x/contact-dark-mode-glyph-ui-icon-address-book-profile-page-user-interface-design-white-silhouette-symbol-on-black-space-solid-pictogram-for-web-mobile-isolated-illustration-vector.jpg",
+      default: "https://i.pinimg.com/736x/c0/74/9b/c0749b7cc401421662ae901ec8f9f660.jpg",
      }
 }, { timestamps: true });
 
