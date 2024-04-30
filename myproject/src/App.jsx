@@ -6,6 +6,7 @@ import Signin from './component/Signin'
 import Signup from './component/Signup'
 import Profile from './component/Profile'
 import Header  from './component/Header';
+import PrivateRoute from './component/PrivateRoute';
 
 document.body.style.backgroundColor = "#0f172a"
 export default function App() {
@@ -19,9 +20,10 @@ export default function App() {
      <Route path='/about' element={<About/>} />
     <Route path='/sign-in' element={<Signin/>}  />
     <Route path='/sign-up' element={<Signup/>}  />
-    <Route path='profile' element={<Profile/>}  />
-
-   </Routes>
+    <Route element={<PrivateRoute />} >
+        <Route path='/profile' element={<Profile/>} />
+      </Route>
+    </Routes>
    </BrowserRouter>
    </div>
     </>
