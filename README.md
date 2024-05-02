@@ -2,6 +2,9 @@
 
 ---
 
+![image](https://github.com/Justhasim/myproject/assets/133746816/d14fa287-a04f-486c-b096-684b0c3df024)
+
+
 ## MERN Authentication with Firebase Integration
 
 This project implements secure authentication functionalities using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Firebase integration. It provides users with essential features such as login, logout, account deletion, and profile picture updating. Additionally, users can utilize Google login for seamless authentication.
