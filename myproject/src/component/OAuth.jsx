@@ -3,9 +3,12 @@ import { FaGoogle } from "react-icons/fa";
 import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";
 import { app } from "../firebase";
 import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
 import { signInSuccess } from "../redux/user/userSlice";
 
 export default function OAuth() {
+
+  const navigate = useNavigate();
 
   const dispatch = useDispatch();
 
@@ -33,6 +36,7 @@ export default function OAuth() {
       //...
     } 
     dispatch(signInSuccess(data));
+    navigate('/')
     
    } catch (error) {
     console.log(error);
