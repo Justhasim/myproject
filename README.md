@@ -2,14 +2,12 @@
 
 ---
 
-![image](https://github.com/Justhasim/myproject/assets/133746816/d14fa287-a04f-486c-b096-684b0c3df024)
-
-
 ## MERN Authentication with Firebase Integration
 
 This project implements secure authentication functionalities using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Firebase integration. It provides users with essential features such as login, logout, account deletion, and profile picture updating. Additionally, users can utilize Google login for seamless authentication.
 
-[mern.avif](https://prod-files-secure.s3.us-west-2.amazonaws.com/10edc598-c160-4277-bb80-649a8330ca02/1f14a58e-b95e-4a8a-b496-1f37dd4441b0/mern.avif)
+![image](https://github.com/Justhasim/myproject/assets/133746816/0dee2188-e7c9-4257-923b-bfe432ebb315)
+
 
 ### Features:
 
@@ -21,9 +19,6 @@ This project implements secure authentication functionalities using the MERN (Mo
 - **Home & About Pages:** Simple yet functional home and about pages for a user-friendly experience.
 - **Vite & Tailwind CSS:** Utilizing Vite for a fast development experience and Tailwind CSS for rapid UI development.
 
-![tailwind.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/10edc598-c160-4277-bb80-649a8330ca02/abe8507d-a7ae-4c52-82f2-84d989f04cf2/tailwind.png)
-
-![vite.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/10edc598-c160-4277-bb80-649a8330ca02/e360a899-d4a4-4883-8be6-be85bb4c0a53/vite.png)
 
 ### Technologies Used:
 
@@ -48,9 +43,6 @@ This project implements secure authentication functionalities using the MERN (Mo
 
 ---
 
-![mongoo.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/10edc598-c160-4277-bb80-649a8330ca02/c0ab355b-f28a-444f-93cf-8f0f5ce85bb6/mongoo.png)
-
-![images (1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/10edc598-c160-4277-bb80-649a8330ca02/b436569e-2229-4d47-9bb5-75bc815aafc2/images_(1).png)
 
 Instagram: 
 
