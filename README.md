@@ -4,6 +4,8 @@
 
 ## MERN Authentication with Firebase Integration
 
+Link:https://mernauth-d8yn.onrender.com/sign-in
+
 This project implements secure authentication functionalities using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Firebase integration. It provides users with essential features such as login, logout, account deletion, and profile picture updating. Additionally, users can utilize Google login for seamless authentication.
 
 ![image](https://github.com/Justhasim/myproject/assets/133746816/0dee2188-e7c9-4257-923b-bfe432ebb315)
